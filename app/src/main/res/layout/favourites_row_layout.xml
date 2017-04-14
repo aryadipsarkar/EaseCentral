@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="350dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Title"
+        android:textSize="15dp"
+        android:id="@+id/t_title"
+        android:textColor="#000000" />
+    <ImageView
+        android:layout_below="@+id/t_title"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/t_image" />
+    <TextView
+        android:layout_toRightOf="@+id/t_image"
+        android:layout_below="@+id/t_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="40dp"
+        android:text="Comments"
+        android:id="@+id/t_comments"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/t_image"
+        android:id="@+id/t_url"
+        android:textColor="#000000"
+        android:focusable="false" />
+
+</RelativeLayout>
