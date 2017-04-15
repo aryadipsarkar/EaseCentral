@@ -3,5 +3,5 @@ The Reddit is an American social news aggregation, web content rating, and discu
 </br>
 The detailed project report along with the signed APK and the working video of the app is contained in the "Miscellaneous" folder.</br>
 </br>
-Go Reddit!!!
+Go RR!!!
 
